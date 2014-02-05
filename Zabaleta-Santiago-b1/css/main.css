@@ -44,6 +44,35 @@ float: right;
 	}
 	
 /* Header Styling*/	
+p:first-child
+{
+font-weight:bold;
+}
+
+p:first-letter
+{ 
+font-size:200%;
+color:black;
+font-weight: bold;
+}
+
+p:first-line
+{
+background-color:yellow;
+}
+
+p:before
+{
+content:"-";
+}
+
+p:after
+{
+content:"Reference: http://en.wikipedia.org/wiki/Colombia"
+}
+
+
+
 header {
 	background-image:url('http://ak.picdn.net/shutterstock/videos/167656/preview/stock-footage-colombia-flag-with-real-structure-of-a-fabric.jpg');
 	background-color:#cccccc;
@@ -167,13 +196,13 @@ th {
 	}
 	
 /* Image Individual Styles*/
-.skyline {
+img[alt$="skyline"] {
 	border:5px solid white;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 	}
-.cartagena-town{
+img[alt*="cartagena-town"]{
 	margin: 0;
     padding: 0;
     height: 200px;
@@ -182,7 +211,8 @@ th {
     float:right;
 	}
 
-.cartagena-beaches{
+
+img[alt^="cartagena-beaches"]{
 	margin:auto;
 	padding:auto;
     height: 150px;
