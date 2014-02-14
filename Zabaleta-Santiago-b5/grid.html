@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Up and Running with Foundation</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.min.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+	<div class="row">
+	<header class="large-6 large-centered columns">
+	 <hgroup>
+	 <h1> My Web Page </h1>
+	 <h2>A test of the foundation grid system </h2>
+	 </hgroup>
+	 </header>
+  <div class="row">
+    <aside class="large-3 small-5 columns">
+      <p>Spanning 3 large columns, but 6 small columns.</p>
+    </aside>
+    <section class="large-8 large-offset-1 small-5 small-offset-2 columns">
+      <p>Spanning a big space of 9 columns, but a small space of 6 columns. No matter how big or small my page gets, there will always be 2 columns, divided up this way.</p>
+    </section>
+  </div>
+
+  <div class="row">
+    <div class="small-8 large-2 columns">
+      <img src="img/larue.jpg" alt="Painting by LaRue. ">
+    </div>
+    <div class="small-4 large-10 columns">
+      <img src="img/bell.jpg" alt="Painting by Bellingham.">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-6 columns">
+      <p>These columns are divided into two equal sizes.</p>
+    </div>
+    <div class="small-6 columns">
+      <p>These columns are divided into two equal sizes.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-6 columns">
+      <p>These columns are divided into two equal sizes.</p>
+    </div>
+    <div class="large-6 columns">
+      <p>These columns are divided into two equal sizes.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-offset-3 large-9 small-offset-6 small-6 columns">
+      <p>This is one really big column that goes all the way across the page.
+      </p>
+    </div>
+  </div>
+
+  <!-- body content here -->
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+ 
+ <script src="js/foundation.min.js"></script>
+
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>
