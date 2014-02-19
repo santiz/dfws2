@@ -1,0 +1,87 @@
+/**
+ * Custom Sheet
+ */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+	background-image:url('http://oi62.tinypic.com/6iv5us.jpg');
+	background-repeat:repeat;
+}
+
+div#wrapper{
+	width: 750px;
+	margin: 5px auto;
+	height: 750px;
+	border:4px solid white;
+	background-color:#E2E2E2;
+}
+div#menu{
+	text-align: center;
+	background:#E2E2E2;
+	border:4px solid white;
+	width:750px;
+	height: 30px;
+	z-index:1;
+	position: relative;
+	margin: 10px auto;
+	border: 2px solid white;
+}
+
+div#menu ul, li {
+	display: inline;
+	padding: 10px;
+	list-style-type: none;
+	text-align: middle;
+	list-style: none;
+}
+
+
+div#content{
+	background: #E2E2E2;
+	position: relative;
+	width: 750px;
+	height: 500px
+	margin: 15px auto;
+}
+
+div#firstcol{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 220px;
+	padding: 15px;
+}
+div#secondcol{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 250px;
+	width: 220px;
+	padding: 15px;
+}
+div#thirdcol{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 500px;
+	width: 220px;
+	padding: 15px;
+}
+.banner {
+  	text-align: center;
+	width: 750px;
+	z-index: 1;
+	border: 2px solid white;
+}
+
+footer {
+	text-align: center;
+	background: #E2E2E2;
+	position: relative;
+	width: 750px;
+	margin: 15px auto;
+	border: 2px solid white;
+}
