@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <title> Survey Form - Santiago Zabaleta</title>
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<!-- content in the body -->
+
+<body>	
+	<div id="wrapper">
+	<div id="banner">
+			<img src="img/banner.jpg" alt="Banner">
+		</div>
+	
+	<div id="content">
+	<form class="form">
+		<div id="firstcol">
+			<!-- Name-->
+   	   		<label for="name">Name: <br />
+   			<input text="name" size="25" maxlength="30" placeholder="First Name & Last Name" required="Name"/> </label><br /><br />
+   			<!-- Sex-->
+   			<label> What is your Gender <br />
+   			<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+	<br /><br /><label>
+   			<!-- Address-->
+   			<label for="email">Address: <br />
+			<input size="25" maxlength="30" type="address" name="address" required placeholder="Enter a valid address"></label><br /><br />
+			<!- Favorite Color--> 
+			<label for="email">Favorite Color <br />
+			<input size="25" maxlength="30" type="text" required placeholder="Enter Favorite Color"></label><br /><br />
+			<label for="comments">Why is it your favorite Color?<br /> 
+			<textarea name="comments" size="25" maxlength="120" required placeholder="Enter Why you prefer this color, here..." ></textarea> </label><br /><br />
+		</div>
+		<div id="secondcol">
+			<!-- Why Fav. Color?-->
+			<!-- # Required-->
+			Phone Number Required:
+			<br />
+			<input type="tel" id="phone"  pattern="\d{3}[\-]\d{3}[\-]\d{4}" required placeholder="(111) 111-11111"><br /><br />
+			<!-- Date of Birth-->
+			What is your Date of Birth?<br />
+			<input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" class="datepicker" name="date" value="" required placeholder="MM/DD/YYYY" /> <br /><br />
+			<!-- Industry Selector-->
+		<label>Select the Industry in which you Work for: <label><br />
+	<select name="Industry" required="industry" maxlength="20" required placeholder="Select Industry">
+	<option value="null">--Select Industry--</option>			
+	<option value="">Accounting - Finance</option>
+	<option value="">Advertising</option>
+	<option value="">Agriculture</option>
+	<option value="">Airline - Aviation</option>
+	<option value="">Appliance & Electronics</option>
+	<option value="">Architecture - Building</option>
+	<option value="">Art - Photography - Journalism</option>
+	<option value="">Automotive - Motor Vehicles - Parts</option>
+	<option value="">Banking - Financial Services</option>
+	<option value="">Beauty / Wellness / Grooming</option>
+	<option value="">Biotechnology</option>
+	<option value="">Broadcasting - Radio - TV</option>
+	<option value="">Building Materials</option>
+	<option value="">Call Center / SSO / BPO</option>
+	<option value="">Chemical</option>
+	<option value="">Coffee Shop</option>
+	<option value="">Computer Hardware</option>
+	<option value="">Computer Software</option>
+	<option value="">Construction</option>
+	<option value="">Consulting</option>
+	<option value="">Consumer Products</option>
+	<option value="">Cosmetics & Beauty</option>
+	<option value="">Credit - Loan - Collection</option>s
+	<option value="">Defense - Aerospace</option>
+	<option value="">Department Store</option>
+	<option value="">Education - Teaching - Administration</option>
+	<option value="">Electronics</option>
+	<option value="">Employment - Recruiting - Staffing</option>
+	<option value="">Energy - Utilities - Gas - Electric</option>
+	<option value="">Engineering - Machinery</option>
+	<option value="">Engineering - Precision</option>
+	<option value="">Engineering - Services</option>
+	<option value="">Entertainment</option>
+	<option value="">Environmental</option>
+	<option value="">Exercise - Fitness</option>
+	<option value="">Exhibitions / Event Management / MICE</option>
+	<option value="">Eye Care</option>
+	<option value="">Fashion - Apparel - Textile</option>
+	<option value="">Food</option>
+	<option value="">Full Service Restaurant</option>
+	<option value="">Funeral - Cemetery</option>
+	<option value="">Furniture</option>
+	<option value="">Gas / Convenience Store</option>
+	<option value="">Government - Civil Service</option>
+	<option value="">Grocery & Pharmacy</option>
+	<option value="">Hardware / Home Improvement</option>
+	<option value="">Healthcare - Health Services</option>
+	<option value="">Home Décor and Kitchen</option>
+	<option value="">Homebuilding</option>
+	<option value="">Hospitality</option>
+	<option value="">Hotel - Resort</option>
+	<option value="">HVAC</option>
+	<option value="">Import - Export</option>
+	<option value="">Industrial</option>
+	<option value="">Insurance</option>
+	<option value="">Internet - ECommerce</option>
+	<option value="">Jewelry</option>
+	<option value="">Landscaping</option>
+	<option value="">Law Enforcement</option>
+	<option value="">Legal</option>
+	<option value="">Library Science</option>
+	<option value="">Managed Care</option>
+	<option value="">Manufacturing</option>
+	<option value="">Marine / Maritime</option>
+	<option value="">Maritime - Offshore & Marine Engineering</option>
+	<option value="">Maritime - Port</option>
+	<option value="">Maritime - Shipping</option>
+	<option value="">Mass Merchandiser</option>
+	<option value="">Medical Equipment</option>
+	<option value="">Merchandising</option>
+	<option value="">Military</option>
+	<option value="">Mining / Drilling / Resources</option>
+	<option value="">Mortgage</option>
+	<option value="">Newspaper</option>
+	<option value="">Not for Profit - Charitable</option>
+	<option value="">Office Supplies - Equipment</option>
+	<option value="">Oil Refining - Petroleum - Drilling</option>
+	<option value="">Other</option>
+	<option value="">Other Great Industries</option>
+	<option value="">Packaging</option>
+	<option value="">Pet Store</option>
+	<option value="">Pharmaceutical</option>
+	<option value="">Polymer / Plastic / Rubber</option>
+	<option value="">Printing - Publishing</option>
+	<option value="">Public Relations</option>
+	<option value="">Quick Service or Fast Food Restaurant</option>
+	<option value="">Real Estate - Property Mgt</option>
+	<option value="">Recreation</option>
+	<option value="">Repair / Maintenance Services</option>	
+	<option value="">Research & Development</option>
+	<option value="">Restaurant</option>
+	<option value="">Retail</option>
+	<option value="">Retail Bank</option>
+	<option value="">Sales - Marketing</option>
+	<option value="">Science & Technology</option>
+	<option value="">Securities</option>
+	<option value="">Security</option>
+	<option value="">Semiconductor</option>
+	<option value="">Services - Corporate B2B</option>
+	<option value="">Social Services</option>
+	<option value="">Sporting Goods</option>
+	<option value="">Telecommunications
+	<option value="">Training</option>
+	<option value="">Transportation</option>
+	<option value="">Travel</option>
+	<option value="">Wireless</option>
+	<option value="">Wood / Fibre / Paper</option>
+	</select>
+	 <br /> <br />
+			<Label> Please Select Date Started at your Job <br />
+			<input type="date"  value="YYYY-MM-DD" class="input-medium search-query" required placeholder="MM/DD/YYYY"> 								</label><br />
+			<!-- Employment-->
+			<label for="email">Place of Employment<br />
+			<input size="25" maxlength="30" type="text" required placeholder="Place of Employment"></label><br /> 	
+		</div>
+		<div id="thirdcol">
+					
+			<!-- How Long Have you Worked for your Employers-->	
+    <label for="rangeVal">How Long Have You worked for your current Employer?<br /> </label>
+    <input type ="range" max="20" min="0"
+        onchange="document.getElementById('rangeValLabel').innerHTML = this.value;"
+        step="1" name="rangeVal" id="rangeVal" value="200" required placeholder="Select Industry">
+    </input>
+    <em id="rangeValLabel" style="font-style: normal;"></em>
+    <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    
+    <input id="demo_box_2" class="css-checkbox" type="checkbox" checked="checked" />
+<label for="demo_box_2" name="demo_lbl_2" class="css-label">I agree to Terms and Conditions</label><br /><br />
+	<button type="submit"  class="submit" value="Subscribe">Submit my Survey Form!</button>
+	</form>
+			</div>
+			</div>
+			</div>
+</body>
+
+</html>
